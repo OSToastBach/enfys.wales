@@ -1,0 +1,89 @@
+html {
+    height: 100%;
+}
+body {
+    /*background: linear-gradient(0, #6d4a80, #c486e0);*/
+    background: linear-gradient(0, #4a6380, #86e0db);
+    background-size: auto;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+code {
+  font-family: Consolas,"courier new";
+  color: rgb(131, 42, 58);
+  background-color: #f1f1f1;
+  padding: 2px;
+  font-size: 105%;
+}
+
+@font-face {
+  font-family: FONT1;
+  src: url(fonts/SatoshiMedium.ttf);
+}
+
+@font-face {
+  font-family: FONT2;
+  src: url(fonts/SatoshiMedium.ttf);
+}
+
+a:link {
+  color: rgb(214, 214, 214);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+  color: rgb(214, 214, 214);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(172, 172, 172);
+    background-color: transparent;
+}
+
+a:active {
+    color: rgb(133, 140, 187);
+    background-color: transparent;
+}
+
+a:link {
+  color: rgb(214, 214, 214);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+div.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+div.a {
+  text-align: left;
+  font-family: FONT1;
+  font-size: 72px;
+  line-height: 1;
+  color: white;
+}
+
+div.b {
+  font-family: FONT1;
+  font-size: 36px;
+  line-height: 1;
+  color: white;
+}
+
+div.c {
+  font-family: FONT1;
+  font-size: 22px;
+  line-height: 1.5;
+  color: white;
+}
