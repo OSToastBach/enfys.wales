@@ -3,20 +3,12 @@ html {
 }
 body {
     /*background: linear-gradient(0, #6d4a80, #c486e0);*/
-    background: linear-gradient(0, #4a6380, #86e0db);
+    background: linear-gradient(0, #4a6380, #4d8380);
     background-size: auto;
     height: 100%;
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-
-code {
-  font-family: Consolas,"courier new";
-  color: rgb(131, 42, 58);
-  background-color: #f1f1f1;
-  padding: 2px;
-  font-size: 105%;
 }
 
 @font-face {
@@ -86,4 +78,61 @@ div.c {
   font-size: 22px;
   line-height: 1.5;
   color: white;
+}
+
+div.d {
+  font-family: FONT1;
+  font-size: 24px;
+  line-height: 1.25;
+  color: white;
+}
+
+li{
+  list-style: none;
+  max-width:1000px;
+  word-wrap:break-word;
+}
+
+div.e {
+  font-family: FONT1;
+  font-size: 32px;
+  line-height: 1;
+  color: white;
+}
+
+div.f {
+  font-family: FONT1;
+  font-size: 48px;
+  line-height: 1;
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+code {
+  font-family: Consolas,"courier new";
+  color: rgb(185, 227, 255);
+  background-color: linear-gradient(0, #1c2631, #315352);
+  padding: 2px;
+  font-size: 100%;
+}
+
+mark.red {
+  color:rgb(255, 121, 121);
+  background: none;
+}
+
+mark.blue {
+  color:rgb(121, 239, 255);
+  background: none;
+}
+
+mark.purple {
+  color:rgb(221, 169, 255);
+  background: none;
+}
+
+mark.orange {
+  color:rgb(255, 201, 121);
+  background: none;
 }
