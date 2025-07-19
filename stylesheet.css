@@ -142,6 +142,7 @@ mark.orange {
 #stargaze-webring {
   margin: 0 auto;
   padding: 15px;
+  font-family: FONT1;
 }
 
 #stargaze-webring table {
@@ -149,6 +150,8 @@ mark.orange {
   border-style: solid;
   border-width: 2px;
   border-radius: 15px;
+  border-color: #fff;
+  background-color: #0004;
 }
 
 #stargaze-webring table tr td {
@@ -160,8 +163,8 @@ mark.orange {
 }
 
 #stargaze-webring .webring-info {
-   font-family: FONT1;
    text-align: center;
+   color: #fff;
 }
 
 #stargaze-webring .webring-arrow a {
