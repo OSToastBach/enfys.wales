@@ -61,10 +61,15 @@ a:link {
   padding-right: 15%;
 }
 
-.btmpad {
-  padding-top: 4%;
-}
-
 .btnpad {
   padding-left: 15%;
+}
+
+.eightyeightthirtyone {
+  padding-left: 10%
+}
+
+br {
+   display: block;
+   margin: 4px 0;
 }
