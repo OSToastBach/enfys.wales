@@ -1,0 +1,70 @@
+#stargaze-webring table {
+  margin: 0 auto;
+}
+
+#stargaze-webring table tr td {
+  padding: 0px;
+}
+
+#stargaze-webring .webring-prev {
+  text-align: right;
+}
+
+#stargaze-webring .webring-info {
+   text-align: center;
+   color: #fff;
+}
+
+#stargaze-webring .webring-arrow a {
+  font-size: large;
+  text-decoration: none;
+}
+
+#stargaze-webring .webring-next {
+  text-align: left;
+}
+
+#stargaze-webring .webring-links {
+  font-size: small;
+}
+
+a:link {
+  color: rgb(114, 111, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+  color: rgb(138, 136, 219);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(138, 136, 219);
+    background-color: transparent;
+}
+
+a:active {
+    color: rgb(138, 136, 219);
+    background-color: transparent;
+}
+
+a:link {
+  color: rgb(138, 136, 219);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.mainpad {
+  padding-left: 18%;
+  padding-right: 15%;
+}
+
+.btmpad {
+  padding-top: 4%;
+}
+
+.btnpad {
+  padding-left: 15%;
+}
